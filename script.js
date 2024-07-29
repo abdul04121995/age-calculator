@@ -22,7 +22,7 @@ function ageCalculator(y, m, d) {
   if (
     Number(yearVal) &&
     Number(yearVal) > 1950 &&
-    Number(yearVal) < Number(new Date().getFullYear) &&
+    Number(yearVal) < Number(new Date().getFullYear()) &&
     Number(monthVal) &&
     Number(dayVal)
   ) {
