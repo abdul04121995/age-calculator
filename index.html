@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age calculator</title>
+  </head>
+  <body>
+    <section class="upper">
+      <h2>AGE CALCULATOR</h2>
+      <div class="calculator">
+        <div class="row flex">
+          <label for="days">Day</label>
+          <input type="text" name="days" id="days" maxlength="2" value="" />
+        </div>
+        <div class="row flex">
+          <label for="months">Month</label>
+          <input
+            type="text"
+            name="months"
+            id="months"
+            minlength="1"
+            maxlength="2"
+            value=""
+          />
+        </div>
+        <div class="row flex">
+          <label for="years">Year</label>
+          <input
+            type="text"
+            name="years"
+            id="years"
+            minlength="4"
+            maxlength="4"
+            value=""
+          />
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn calc-btn">calculate your age</button>
+        <button class="btn reset">Reset</button>
+      </div>
+    </section>
+    <section class="lower">
+      <div class="displayer"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
